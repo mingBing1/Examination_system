@@ -5,9 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
+    check:true
 
   },
 
+
+  checkboxChange:function(e){
+    console.log(this)
+    console.log(this.data.check)
+    console.log('eee')
+    this.setData({
+      check:false
+    })
+    console.log(this.data.check)
+  },
+
+  start_exam:function(e){
+    if(this.data.check){
+      wx.showToast('请选择')
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */

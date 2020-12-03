@@ -30,12 +30,12 @@
    <view class="floor">
 
     <view class="agree">
-    <radio value="r1" checked="true"/> 我已同意学生考试守则，并承担相应责任
+    <radio bindtap="checkboxChange" value="r1" /> 我已同意学生考试守则，并承担相应责任
     </view>
     
     
-    <view class="ready_go">
-        <button>开始考试</button>
+    <view class="ready_go" bindtap="start_exam" >
+        <view class="start" hover-class="button_hover">开始考试</view>
     </view>
     
     </view>
