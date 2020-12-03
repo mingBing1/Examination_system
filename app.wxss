@@ -1,0 +1,26 @@
+/**app.wxss**/
+/* .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}  */
+/* pages/home/home.wxss */
+page {
+  background-color:#e0e7eb;
+  /* background: chartreuse; */
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+.tap_hover{
+  
+  box-shadow:  22px 22px 44px #d3d9dd, 
+             -22px -22px 44px #edf5f9;
+  }
+

@@ -1,0 +1,46 @@
+<!--pages/ready/ready.wxml-->
+<view class="container">
+    <view class="head">
+        <view class="title">
+        C++程序设计
+        </view>
+        <!-- <view class="time">
+        60分钟
+        </view> -->
+        <view class="state">
+        客观题20道,主观题2道
+        </view>
+        <view class="grade">
+        满分100分,共60分钟</view>
+    </view>
+    <view class="rules">
+        <text class="" selectable="false" space="false" decode="false">
+        1．本部分试题直接在试卷上作答，答题前请在试卷指定位置填写自己的姓名、准考证号等信息。
+
+        2．申论考试，与传统作文考试不同，是对分析驾驭材料能力与对表达能力并重的考试。
+
+        3．请先仔细阅读给定的资料，然后按照后面提出的“申论要求”依次作答。
+
+        4．本卷满分为：100分。考试总时限：150分钟，其中阅读资料参考时限约为30分钟，作答参考时限约为120分钟。
+        </text>
+        
+    </view>
+
+  
+   <view class="floor">
+
+    <view class="agree">
+    <radio value="r1" checked="true"/> 我已同意学生考试守则，并承担相应责任
+    </view>
+    
+    
+    <view class="ready_go">
+        <button>开始考试</button>
+    </view>
+    
+    </view>
+
+
+
+
+</view>

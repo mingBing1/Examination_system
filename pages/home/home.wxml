@@ -1,0 +1,28 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+<view class="user">
+    <view class="avatar">
+        <image src="https://iconfont.alicdn.com/t/70688cee-d922-46e1-b096-356bb28194fd.png" />
+    </view>
+    <text>Ming</text>
+    
+</view>
+<view class="rectangles">
+<!-- currenttarget真正的发起者 -->
+    <view class="rectangle" id="exams"  hover-class="tap_hover" bindtap="togo">
+        <text >考试</text>
+    </view>
+    <view class="rectangle" id="scores" hover-class="tap_hover" bindtap="togo">
+        <text >成绩</text>
+    </view>
+    <view class="rectangle" id="exercises" hover-class="tap_hover" bindtap="togo">
+        <text >练习</text>
+    </view>
+    <view class="rectangle" id="mistakes" hover-class="tap_hover" bindtap="togo">
+        <text >错题</text>
+    </view>
+</view>
+
+
+</view>
+

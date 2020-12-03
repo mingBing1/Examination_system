@@ -1,0 +1,16 @@
+<view class="container">
+    <view class="title">
+        {{exam_title}}    
+    </view>
+
+    <view class="options" wx:for="{{options}}" wx:key="index">
+        <view class="option"hover-class="tap_hover">{{item[0]}}.{{item[1]}}</view>
+    </view>
+    <view class="floor" >
+        <view class="button" hover-class="button_hover">上一题</view>
+        <view class="button" hover-class="button_hover">答题卡</view>
+        <view class="button" hover-class="button_hover">交卷</view>
+        <view class="button" hover-class="button_hover">下一题</view>
+    </view>
+</view>
+

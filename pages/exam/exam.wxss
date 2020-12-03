@@ -1,0 +1,63 @@
+/* pages/exam/exam.wxss */
+
+.title{
+    width: 80%;
+    padding: 30rpx 0;
+    /* height: 300rpx; */
+    background: chocolate;
+    margin-top: 20rpx;
+    margin: 40rpx auto;
+    border-radius: 20rpx;
+    background: #e0e7eb;
+    box-shadow: 20rpx 20rpx 60rpx #bec4c8,
+        -20rpx -20rpx 60rpx #ffffff;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 80%;
+    height: 100rpx;
+    background: chocolate;
+    margin-top: 20rpx;
+    margin: 40rpx auto;
+    border-radius: 40rpx;
+    background: #e0e7eb;
+    box-shadow: 20rpx 20rpx 60rpx #bec4c8,
+        -20rpx -20rpx 60rpx #ffffff;
+    padding-left: 20rpx;
+    }
+    .floor{
+        height: 100rpx;
+        display:flex;
+        position:fixed; 
+        justify-content: space-around;
+        /* width:95%; */
+        width: 100%;
+        z-index:700;
+        bottom:50rpx;
+    }
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100rpx;
+    width: 150rpx;
+    border-radius: 10rpx;
+    background:#e0e7eb;
+    box-shadow: 20rpx 20rpx 60rpx #bec4c8,
+        -20rpx -20rpx 60rpx #ffffff;
+} 
+.button_hover{
+
+     background: linear-gradient(145deg, #cad0d4, #f0f7fb);
+     box-shadow:  20px 20px 60px #bec4c8, 
+    -20px -20px 60px #ffffff;
+    
+}
+.tap_hover{
+  
+    box-shadow:  22px 22px 44px #d3d9dd, 
+               -22px -22px 44px #edf5f9;
+    }

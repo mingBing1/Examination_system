@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/ready/ready",
+    "pages/home/home",
+    "pages/mistakes/mistakes",
+    "pages/scores/scores",
+    "pages/exercises/exercises",
+    "pages/exams/exams",
+    "pages/exam/exam",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e0e7eb",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

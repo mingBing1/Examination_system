@@ -1,0 +1,39 @@
+<!--pages/exam/exam.wxml-->
+<view class="container">
+
+<view class="head">
+
+<view class="title">
+<text >{{user}}的考试</text>
+</view>
+<view class="now">
+即将开始{{pendent}}门/共{{subject.length}}门
+</view>
+</view>
+<view class="subjects"wx:for="{{subject}}" wx:key="id">
+<view class="subject" bindtap="go_exam" hover-class="tap_hover" data-id="{{item.id}}">
+
+
+    <view class="subject-text">
+        <view class="left">
+    <view class="subject-title">{{item.title}}
+    </view>
+    <view class="time">{{item.time}}</view>
+        </view>
+        <view class="right">
+
+        <view class="residue">
+        {{item.residue}}天后
+    </view>
+        </view>
+    
+    
+   
+
+    </view>
+   
+</view>
+
+</view>
+
+</view>
